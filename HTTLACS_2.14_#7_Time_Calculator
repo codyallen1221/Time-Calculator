@@ -1,0 +1,7 @@
+# 1.3 Write a Python program to solve the general version of the above problem. Ask the user for the time now (in hours), and ask for the number of hours to wait. Your program should output what the time will be on the clock when the alarm goes off.
+
+time_now_str = input("What time is?")
+time_now = int(time_now_str)
+hours_to_wait_str = input("How long to wait?")
+hours_to_wait = int(hours_to_wait_str)
+print((hours_to_wait % 24) + time_now )
